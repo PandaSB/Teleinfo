@@ -53,7 +53,7 @@ char Controle = 0;
 int Screen = 0;
 unsigned long ScreenTime = 0;
 
-void DisplayMessage(char *szMsg, int size)
+void DisplayMessage(const char *szMsg, int size)
 {
   char * szpos ; 
   u8x8.clear();
